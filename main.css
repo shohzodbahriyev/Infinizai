@@ -1,0 +1,412 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    padding: 20px 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0,0.8) 0 55%,#57B8FFFF 55%);
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_link{
+    color: white;
+    padding: 30px;
+}
+
+.nav_link:hover{
+    border-bottom: 1px solid blue;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.right .contact{
+    padding: 16px 30px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 0px;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.hamburger{
+    border: none;
+    font-size: 25px;
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+/* sponsors */
+
+#sponsors{
+    background: #fdd04a;
+    padding: 120px 0;
+}
+
+.sponsors_row .card img{
+    width: 100%;
+}
+
+#sponsors h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: black;
+}
+
+#sponsors p{
+    width: 576px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #555555;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.sponsors_row{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+/* SECTION - 2 */
+
+.section2{
+    text-align: center;
+}
+
+#stopshop{
+    background: url(./images/triple.png);
+}
+
+.section2 a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #57B8FF;
+    display: inline-block;
+    padding-top: 136px;
+}
+
+.section2 a:hover{
+    border-bottom: 1px solid blue;
+} 
+
+.section2 h1{
+    width: 716px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 auto;
+    padding-top: 22px;
+}
+
+/* FOUR BOX */
+
+.left_box{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 41px 0 110px;
+}
+
+.leftop, .leftbottom, .rightop, .rightbottom{
+    display: flex;
+    width: calc(50% - 16px);
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    flex-wrap: wrap;
+    padding: 35px;
+    margin: 16px 0;
+}
+
+.textLeftop h3{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    color: #fff;
+    text-align: left;
+}
+
+.textLeftop p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #DFDFDF 80%;
+    text-align: left;
+    margin-top: 19px;
+}
+.iconLeftop{
+    width: 10%;
+}
+.textLeftop{
+    width: 90%;
+}
+
+.s2-p{
+    width: 698px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #DFDFDF 80%;
+    margin: 0 auto;
+    padding-top: 39px;
+}
+
+/* SECTION3 */
+
+.cloud{
+    background: #000000FF;
+}
+
+.section3{
+    display: flex;
+}
+
+.cloud_text{
+    width: 55%;
+    padding: 170px 40px;
+
+}
+
+.cloud_img{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    margin: 170px 60px;
+}
+
+
+.listening, .outer, .inner, .triangle{
+    position: absolute;
+}
+
+
+.cloud_img .outer:hover, .inner:hover{
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+
+.cloud_img .triangle:hover{
+    /* border: 1px solid blue; */
+}
+
+.cloud_text a{
+    color: #57B8FF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.cloud_text h3{
+    width: 684px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 22px;
+    
+}
+
+.cloud_text p{
+    width: 721px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    padding-top: 38px;
+}
+
+.cloud_text button{
+    background-color: #57B8FF;
+    color: white;
+    border: none;
+    padding: 21px 34px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;  
+    margin-top: 54px;
+}
+
+.cloud_text button:hover{
+    border: 1px solid blue;
+}
+
+.cloud_text button span:hover{
+    border-bottom: 1px solid blue;
+}
+
+/* SECTION4 */
+
+.customize{
+    background: #2A313C;
+}
+
+.section4{
+    display: flex;
+}
+
+.customize_img{
+    width: 45%;
+    padding: 0 30px;
+}
+
+.customize_text{
+    width: 55%;
+    padding: 73px 60px;
+    margin-left: 20px;
+}
+
+.customize_text a{
+    color: #57B8FF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.customize_text h3{
+    width: 566px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    color: #fff;
+    text-transform: capitalize; 
+    padding-top: 22px;  
+}
+
+.customize_text p{
+    width: 561px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    padding-top: 38px;
+}
+
+
+.customize_images{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+
+.inner1, .inner2{
+    display: inline-block;
+    position: absolute;
+}
+/* 
+.inner1{
+    position: absolute;
+    left: 0;
+
+}
+
+.inner2{
+    position: absolute;
+    right: 0;
+} */
+
+
+/* SECTION 5 */
+
+.section5{
+    display: flex;
+}
+
+.smooth{
+    background: url(./images/smooth.png);
+    width: 33.33%;
+    height: 732px;
+}
+
+.multiplayer{
+    background: url(./images/multiplayer.png);
+    width: 33.33%;
+    height: 732px;
+}
+
+.open_world{
+    background: url(./images/open_world.png);
+    width: 33.33%;
+    height: 732px;
+}
+
+.smooth, .multiplayer, .open_world{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.smooth p, .multiplayer p, .open_world p{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: white;
+}
+.warriors .container{
+    padding: 0;
+}
+
+
+@media screen and (max-width: 1000px){
+    .container{
+        max-width: 900px;
+    }
+    .nav{
+        display: none;
+    }
+    .right .contact{
+        display: none;
+    }
+    .hamburger{
+        display: inline-block;
+    }
+    .sponsors_row{
+        flex-wrap: wrap;
+    }
+    .sponsors_row .card{
+        flex: 33.333%;
+    }
+}
